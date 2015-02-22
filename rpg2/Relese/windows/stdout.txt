@@ -1,0 +1,3 @@
+OpenGL is initialize
+Texture is initialize
+Main loop is started
