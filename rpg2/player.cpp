@@ -108,7 +108,7 @@ void Player::loadTexture(void)
     for(counter = 0; counter < 3; counter++)
     {
         this->texture.d[counter] = this->loadModel(image, imageRect);
-        imageRect.x += imageRect.w * (counter + 1);
+        imageRect.x += imageRect.w;
     }
     
     imageRect.x = 0;
